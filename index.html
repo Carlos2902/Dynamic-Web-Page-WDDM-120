@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynamic Web Page</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     </head>
     <body>
     <section>
@@ -12,13 +15,14 @@
         <header>
         <a href="#" class="logo"><img src="./assets/logo.png" alt="logo" /></a>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">New</a></li>
+          <li><a href="https://www.starbucks.ca/">Home</a></li>
+          <li><a href="https://www.starbucks.ca/menu">Menu</a></li>
+          <li><a href="https://www.starbucks.ca/gift">Gift Cards</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         </header>
 
+        <!-- Main content -->
         <div class="content">
         <div class="textBox">
             <h2>It's only Coffe <br />Just with a <span>Fancy Name</span></h2>
@@ -35,6 +39,7 @@
                 </div>
         </div>
 
+        <!-- Smoothies selector -->
         <ul class="thumb">
             <li>
                 <img src="./assets/thumb1.png" alt="smoothie" onclick="imgSlider('./assets/img1.png'); changeCircleColor('#017143')">
@@ -47,18 +52,23 @@
             </li>
         </ul>
         
-        <footer>
-            <p>Carlos Lopez</p>
-        </footer>
         
-
-        <ul class="sci">
-            <li><a href="#"><img src="./assets/facebook.png" alt="facebook"></a></li>
-            <li><a href="#"><img src="./assets/instagram.png" alt="instagram"></a></li>
-            <li><a href="#"><img src="./assets/twitter.png" alt="twitter"></a></li>
-        </ul>
+        <!-- Social Media SideBar -->
+        
+        <div class="sidebar">
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/"><img src="./assets/facebook.png" alt="facebook" > </a></li>
+                <li><a href="https://www.instagram.com/"><img src="./assets/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://twitter.com/"><img src="./assets/twitter.png" alt="twitter"></a></li>
+            </ul>
+            </div>
 
     </section>
+
+    <div class="footer">
+        <p>Author: Carlos Lopez<br>
+        <a href="#">carloslopezr29@gmail.com</a></p>
+    </div>
 
     <script src="./index.js"></script>
   </body>
